@@ -19,5 +19,5 @@ Se debe implementar la funcionalidad característica de una *biblioteca*, incluy
  * Permitir a los visitantes calificar el libro.  
  * A usuarios administradores: 
     - Agregar o eliminar libros
-    - Hacer referencia a otros libros relacionados ya cargados.
+    - Hacer referencia a otros libros relacionados ya cargados
  

@@ -1,0 +1,4 @@
+en .htaccess:
+
+RewriteBase /carpeta_proyecto
+
