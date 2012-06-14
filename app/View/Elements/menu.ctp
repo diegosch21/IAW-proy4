@@ -18,7 +18,7 @@
         </ul>
       </li>
           <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="/gallery.html">Gallery</a></li>
       <li class="last"><a href="contact.php">Contact</a></li>
     </ul>
    </nav> 
