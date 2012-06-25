@@ -3,8 +3,8 @@
 	<fieldset>
 		<legend><?php echo __('Add User'); ?></legend>
 	<?php
-		echo $this->Form->input('user');
-		echo $this->Form->input('pass');
+		echo $this->Form->input('username');
+		echo $this->Form->input('password');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>

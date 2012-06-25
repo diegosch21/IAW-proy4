@@ -36,11 +36,11 @@ CREATE TABLE relateds (
 */
 CREATE TABLE users (
 	id INTEGER PRIMARY KEY  NOT NULL,
-	user TEXT,
-	pass TEXT
+	username TEXT,
+	password TEXT
 );
 
-INSERT INTO users(user,pass) VALUES('admin','21232f297a57a5a743894a0e4a801fc3');
+INSERT INTO users(username,password) VALUES('admin','21232f297a57a5a743894a0e4a801fc3');
 
 INSERT INTO books(id,titulo,autores) VALUES(1,'libro1','autor');
 INSERT INTO books(id,titulo,autores) VALUES(2,'libro2','autor');

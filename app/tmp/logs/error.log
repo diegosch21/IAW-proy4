@@ -1,0 +1,3 @@
+2012-06-25 05:03:59 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

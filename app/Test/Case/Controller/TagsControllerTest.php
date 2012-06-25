@@ -35,7 +35,7 @@ class TagsControllerTestCase extends CakeTestCase {
  *
  * @var array
  */
-	public $fixtures = array('app.tag', 'app.book', 'app.books_book', 'app.books_tag');
+	public $fixtures = array('app.tag', 'app.book', 'app.books_tag');
 
 /**
  * setUp method
