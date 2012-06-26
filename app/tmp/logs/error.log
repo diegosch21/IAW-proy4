@@ -1,3 +1,903 @@
 2012-06-25 05:03:59 Error: [MissingControllerException] Controller class AdminController could not be found.
 #0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-26 15:59:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:08:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:08:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:09:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:09:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:10:34 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:10:34 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:10:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:10:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:11:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:11:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:17:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:17:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:18:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:18:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:18:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:18:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:18 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:19:18 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:22:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:22:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:22:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:22:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:24:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:24:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:24:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:24:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:27:20 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:27:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:27:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:27:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:27:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:34:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:34:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:34:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:34:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:35:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:35:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:35:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:35:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:35:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:35:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:37:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:37:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:37:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:37:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:04 Error: [MissingControllerException] Controller class Typo.htmlController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:38:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:44:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:44 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:44 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:54 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:47:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:56 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:56 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:56:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:57:27 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:58:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
