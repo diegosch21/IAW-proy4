@@ -901,3 +901,1221 @@
 2012-06-26 16:58:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
 #0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-28 03:44:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+
+2012-06-28 03:44:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main202012-06-28 03:44:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:40 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'browsers.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:40 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:41 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:44:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'browsers.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:16 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:17 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'browsers.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'slider3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:21 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:21 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:21 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:45:21 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'browsers.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:04 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'browsers.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:14 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:15 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'browsers.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:56 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:57 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:57 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:57 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:57 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:57 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:46:57 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'featured1.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:03 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:48:04 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:32 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:32 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:32 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:32 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:32 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:32 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:49:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:19 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:33 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:34 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:34 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:34 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:35 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:35 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:35 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:35 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:35 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:36 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:36 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:36 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:36 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:37 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:45 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:45 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:45 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:45 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:45 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:45 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:46 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:46 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:46 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:46 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:52 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'twitter.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:52 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'facebook.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:52 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'digg.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'delicious.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb2.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb3.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'flickr.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'linkedin.png')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 03:50:53 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('images', 'thumb4.jpg')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,115 +1,74 @@
-<div class="books view">
-<h2><?php  echo __('Book');?></h2>
-	<dl>
-		<dt><?php echo __('Id'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['id']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Id Google'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['id_google']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Titulo'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['titulo']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Subtitulo'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['subtitulo']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Autores'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['autores']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Categoria'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['categoria']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Resumen'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['resumen']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Fechapub'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['fechapub']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Editorial'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['editorial']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Isbn'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['isbn']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Pags'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['pags']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Idioma'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['idioma']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Calif Google'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['calif_google']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Calif Prom'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['calif_prom']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Calif Cant'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['calif_cant']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Thumbnail'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['thumbnail']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Image'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['image']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Link Google'); ?></dt>
-		<dd>
-			<?php echo h($book['Book']['link_google']); ?>
-			&nbsp;
-		</dd>
-	</dl>
+﻿<div class="main-container">
+  <header>
+    <h1><a href="index.html">Busca cultura</a></h1>
+    <p id="tagline"><strong>Donde encontrarás tu próximo libro</strong></p>
+  </header>
 </div>
+<div class="main-container">
+  <div id="sub-headline">
+    <div class="tagline_left"><p id="tagline2">Tel: 123 333 4444 | Mail: <a href="mailto:email@website.com">email@website.com</a></p></div>
+    <div class="tagline_right">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Site Search</legend>
+          <input type="text" value="Busca un libro&hellip;"   onfocus="if (this.value == 'Busca un libro&hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Busca un libro&hellip;';}" />
+          <input type="submit" name="go" id="go" value="Search" />
+        </fieldset>
+      </form>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<?php echo $this->element('menu', array('cache' => true)); ?>
+<div class="main-container">
+  <div class="container1">
+  
+
+
+
+    <article class="box" id="home_featured21">
+
+        <div class="books view">
+<div style="float:right"><img src="<?php echo h($book['Book']['thumbnail']); ?>" alt="<?php echo h($book['Book']['titulo']); ?>"title="<?php echo h($book['Book']['titulo']); ?>"></img></div>
+<h2><?php echo h($book['Book']['titulo']); ?></h2>
+<h5><?php echo h($book['Book']['subtitulo']); ?></h5>
+<a><?php echo h($book['Book']['autores']); ?></a>
+<h2></h2><span><b>Género: </b><?php echo h($book['Book']['categoria']); ?></span>
+<h2></h2><span><b>Resumen: </b><?php echo h($book['Book']['resumen']); ?></span>
+<p><b>Calificación google: </b><?php echo h($book['Book']['calif_google']); ?></p>
+<p><b>Calificación promedio: </b><?php echo h($book['Book']['calif_prom']); ?></p>
+<p><b>Fecha publicación: </b><?php echo h($book['Book']['fechapub']); ?></p>
+<p><b>Editorial: </b><?php echo h($book['Book']['editorial']); ?></p>
+<p><b>Tags relacionados: </b> 	<?php if (!empty($book['Tag'])):
+		$i = 0;
+		foreach ($book['Tag'] as $tag): ?>
+			<?php echo $tag['nombre'];?>		
+	<?php endforeach; ?>
+
+<?php endif; ?> </p>	<br />
+<p>ISBN: <?php echo h($book['Book']['isbn']); ?></p>
+<p><?php echo h($book['Book']['pags']); ?> páginas</p>
+<p>Idioma: <?php echo h($book['Book']['idioma']); ?></p>
+
+</div><br />
+<br />
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Book'), array('action' => 'edit', $book['Book']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Book'), array('action' => 'delete', $book['Book']['id']), null, __('Are you sure you want to delete # %s?', $book['Book']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Books'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Book'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Tags'), array('controller' => 'tags', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Tag'), array('controller' => 'tags', 'action' => 'add')); ?> </li>
-	</ul>
+	<h3>Administrar</h3>
+
+
+			<?php  echo $this->Html->link(__('Editar Libro'), array('class'=>'more','action' => 'edit', $book['Book']['id'])); ?></p>
+			<?php  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Are you sure you want to delete # %s?', $book['Book']['id']));?></p>
+			<?php echo $this->Html->link(__('Lista de Libros'), array('action' => 'index'));?></p>
+			<?php echo $this->Html->link(__('Nuevo Libro'), array('action' => 'add'));?></p>
+			<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index'));?></p>
+			<?php echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add'));?></p>
+			
 </div>
 <div class="related">
-	<h3><?php echo __('Related Tags');?></h3>
+	<h6>Tags relacionados</h6>
 	<?php if (!empty($book['Tag'])):?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
-		<th><?php echo __('Id'); ?></th>
 		<th><?php echo __('Nombre'); ?></th>
 		<th class="actions"><?php echo __('Actions');?></th>
 	</tr>
@@ -117,7 +76,6 @@
 		$i = 0;
 		foreach ($book['Tag'] as $tag): ?>
 		<tr>
-			<td><?php echo $tag['id'];?></td>
 			<td><?php echo $tag['nombre'];?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
@@ -129,9 +87,24 @@
 	</table>
 <?php endif; ?>
 
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Tag'), array('controller' => 'tags', 'action' => 'add'));?> </li>
-		</ul>
-	</div>
 </div>
+
+      <div class="clear"></div>
+    </article>
+    
+ </div>
+ 
+<br /><br />
+
+ 
+ 
+ <footer>
+    <p class="tagline_left">Copyright &copy; 2011 - All Rights Reserved - </p>
+    <p class="tagline_right">Desarrollada por <a title="Pecorari & Schwindt" >Pecorari & Schwindt</a></p>
+    <br class="clear" />
+  </footer>
+
+<br />
+<br />
+
+
