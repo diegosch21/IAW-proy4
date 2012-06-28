@@ -37,6 +37,7 @@
 <h2></h2><span><b>Resumen: </b><?php echo h($book['Book']['resumen']); ?></span>
 <p><b>Calificación google: </b><?php echo h($book['Book']['calif_google']); ?></p>
 <p><b>Calificación promedio: </b><?php echo h($book['Book']['calif_prom']); ?></p>
+<p><b>Link GoogleBooks: </b><a href="<?php echo h($book['Book']['link_google']); ?>"><?php echo h($book['Book']['link_google']); ?></a></p>
 <p><b>Fecha publicación: </b><?php echo h($book['Book']['fechapub']); ?></p>
 <p><b>Editorial: </b><?php echo h($book['Book']['editorial']); ?></p>
 <p><b>Tags relacionados: </b> 	<?php if (!empty($book['Tag'])):
@@ -56,8 +57,8 @@
 	<h3>Administrar</h3>
 
 
-			<?php  echo $this->Html->link(__('Editar Libro'), array('class'=>'more','action' => 'edit', $book['Book']['id'])); ?></p>
-			<?php  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar # %s?', $book['Book']['id']));?></p>
+			<?php  echo $this->Html->link(__('Editar Libro'), array('action' => 'edit', $book['Book']['id'])); ?></p>
+			<?php  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id']));?></p>
 			<?php echo $this->Html->link(__('Lista de Libros'), array('action' => 'index'));?></p>
 			<?php echo $this->Html->link(__('Nuevo Libro'), array('action' => 'add'));?></p>
 			<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index'));?></p>
@@ -80,7 +81,7 @@
 			<td class="actions">
 				<?php echo $this->Html->link(__('Ver'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
 				<?php echo $this->Html->link(__('Editar'), array('controller' => 'tags', 'action' => 'edit', $tag['id'])); ?>
-				<?php echo $this->Form->postLink(__('Eliminar'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Esta seguro que quiere eliminar # %s?', $tag['id'])); ?>
+				<?php echo $this->Form->postLink(__('Eliminar'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Esta seguro que quiere eliminar el tag # %s?', $tag['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
