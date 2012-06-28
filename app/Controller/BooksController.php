@@ -15,6 +15,11 @@ class BooksController extends AppController {
  */
 	public function index() {
 		$this->Book->recursive = 0;
+		$this->paginate = array(
+			'limit' => 8,
+			'page' => 1,
+		);
+
 		$this->set('books', $this->paginate());
 	}
 

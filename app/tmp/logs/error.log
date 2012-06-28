@@ -2189,3 +2189,17 @@
 #12 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
 #13 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #14 {main}
+2012-06-29 00:57:37 Error: [NotFoundException] Invalid tag
+#0 [internal function]: TagsController->view('index.html')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TagsController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TagsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 00:57:40 Error: [NotFoundException] Invalid tag
+#0 [internal function]: TagsController->view('gallery.html')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(TagsController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TagsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
