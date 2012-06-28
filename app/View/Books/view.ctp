@@ -57,7 +57,7 @@
 
 
 			<?php  echo $this->Html->link(__('Editar Libro'), array('class'=>'more','action' => 'edit', $book['Book']['id'])); ?></p>
-			<?php  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Are you sure you want to delete # %s?', $book['Book']['id']));?></p>
+			<?php  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar # %s?', $book['Book']['id']));?></p>
 			<?php echo $this->Html->link(__('Lista de Libros'), array('action' => 'index'));?></p>
 			<?php echo $this->Html->link(__('Nuevo Libro'), array('action' => 'add'));?></p>
 			<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index'));?></p>
@@ -70,7 +70,7 @@
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
 		<th><?php echo __('Nombre'); ?></th>
-		<th class="actions"><?php echo __('Actions');?></th>
+		<th class="actions"><?php echo __('Acción');?></th>
 	</tr>
 	<?php
 		$i = 0;
@@ -78,9 +78,9 @@
 		<tr>
 			<td><?php echo $tag['nombre'];?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'tags', 'action' => 'edit', $tag['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Are you sure you want to delete # %s?', $tag['id'])); ?>
+				<?php echo $this->Html->link(__('Ver'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
+				<?php echo $this->Html->link(__('Editar'), array('controller' => 'tags', 'action' => 'edit', $tag['id'])); ?>
+				<?php echo $this->Form->postLink(__('Eliminar'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Esta seguro que quiere eliminar # %s?', $tag['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
