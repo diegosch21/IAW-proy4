@@ -1,3 +1,11 @@
+﻿<div class="main-container">
+  <div class="container1">
+  
+
+
+
+    <article class="box" id="home_featured21">
+<h3><?php echo __('Editar Tag'); ?></h3>
 <div class="tags form">
 <?php echo $this->Form->create('Tag');?>
 	<fieldset>
@@ -10,13 +18,25 @@
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
+<br /><br />
 
-		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Tag.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Tag.id'))); ?></li>
-		<li><?php echo $this->Html->link(__('List Tags'), array('action' => 'index'));?></li>
-		<li><?php echo $this->Html->link(__('List Books'), array('controller' => 'books', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Book'), array('controller' => 'books', 'action' => 'add')); ?> </li>
-	</ul>
+<div class="actions">
+	<h3><?php echo __('Administrar'); ?></h3>
+
+		<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $this->Form->value('Tag.id')), null, __('Esta seguro que quiere eliminar el tag # %s?', $this->Form->value('Tag.id'))); ?></p>
+		<?php echo $this->Html->link(__('Lista de Tags'), array('action' => 'index'));?></p>
+		<?php echo $this->Html->link(__('Lista de Libros'), array('controller' => 'books', 'action' => 'index')); ?> </p>
+		<?php echo $this->Html->link(__('Nuevo Libro'), array('controller' => 'books', 'action' => 'add')); ?> </p>
+
 </div>
+
+
+
+</div>
+
+      <div class="clear"></div>
+    </article>
+    
+ </div>
+ 
+<br /><br />

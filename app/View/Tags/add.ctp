@@ -1,3 +1,11 @@
+﻿<div class="main-container">
+  <div class="container1">
+  
+
+
+
+    <article class="box" id="home_featured21">
+<h3><?php echo __('Agregar Tag'); ?></h3>
 <div class="tags form">
 <?php echo $this->Form->create('Tag');?>
 	<fieldset>
@@ -9,12 +17,22 @@
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>
 </div>
+<br /><br />
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
+	<h3><?php echo __('Administrar'); ?></h3>
 
-		<li><?php echo $this->Html->link(__('List Tags'), array('action' => 'index'));?></li>
-		<li><?php echo $this->Html->link(__('List Books'), array('controller' => 'books', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Book'), array('controller' => 'books', 'action' => 'add')); ?> </li>
-	</ul>
+		<?php echo $this->Html->link(__('Lista de Tags'), array('action' => 'index'));?></p>
+		<?php echo $this->Html->link(__('Lista de Libros'), array('controller' => 'books', 'action' => 'index')); ?> </p>
+		<?php echo $this->Html->link(__('Nuevo Libro'), array('controller' => 'books', 'action' => 'add')); ?> </p>
+
 </div>
+
+
+</div>
+
+      <div class="clear"></div>
+    </article>
+    
+ </div>
+ 
+<br /><br />

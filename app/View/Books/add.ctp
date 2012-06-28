@@ -1,4 +1,13 @@
+﻿<div class="main-container">
+  <div class="container1">
+  
+
+
+
+    <article class="box" id="home_featured21">
+
 <div class="books form">
+<h3><?php echo __('Agregar Libro'); ?></h3>
 <?php echo $this->Form->create('Book');?>
 	<fieldset>
 		<legend><?php echo __('Add Book'); ?></legend>
@@ -20,20 +29,26 @@
 		echo $this->Form->input('thumbnail');
 		echo $this->Form->input('image');
 		echo $this->Form->input('link_google');
-		echo $this->Form->input('RBook');
 		echo $this->Form->input('Tag');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>
 </div>
+<br />
+<br />
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
+	<h3><?php echo __('Administrar'); ?></h3>
+		<?php echo $this->Html->link(__('Lisa de Libros'), array('action' => 'index'));?></p>
+		<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index')); ?> </p>
+		<?php echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add')); ?> </p>
 
-		<li><?php echo $this->Html->link(__('List Books'), array('action' => 'index'));?></li>
-		<li><?php echo $this->Html->link(__('List Books'), array('controller' => 'books', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New R Book'), array('controller' => 'books', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Tags'), array('controller' => 'tags', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Tag'), array('controller' => 'tags', 'action' => 'add')); ?> </li>
-	</ul>
 </div>
+
+</div>
+
+      <div class="clear"></div>
+    </article>
+    
+ </div>
+ 
+<br /><br />
