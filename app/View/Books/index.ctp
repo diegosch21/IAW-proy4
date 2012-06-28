@@ -1,4 +1,5 @@
 <div class="books index">
+
 	<h2><?php echo __('Books');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
@@ -51,6 +52,7 @@
 	</tr>
 <?php endforeach; ?>
 	</table>
+
 	<p>
 	<?php
 	echo $this->Paginator->counter(array(
