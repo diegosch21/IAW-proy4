@@ -2119,3 +2119,73 @@
 #3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-28 05:44:26 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('0')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 05:44:37 Error: [MissingActionException] Action BooksController::1() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-28 05:44:47 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('gallery.html')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 05:44:51 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('index.html')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-28 05:45:03 Error: [MissingControllerException] Controller class RightSidebar.htmlController could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 05:45:07 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 14:46:32 Error: [MissingActionException] Action BooksController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-28 19:11:54 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [14] unable to open database file" is missing, or could not be created.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(245): Sqlite->connect()
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(3417): ConnectionManager::getDataSource('bake')
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(1083): Model->setDataSource('bake')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(3443): Model->setSource('books')
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(2795): Model->getDataSource()
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(2735): Model->_findCount('before', Array)
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(2693): Model->buildQuery('count', Array)
+#8 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(2623): Model->find('count', Array)
+#9 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\BooksController.php(29): Model->exists()
+#10 [internal function]: BooksController->view('1')
+#11 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-06-28 19:13:03 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [14] unable to open database file" is missing, or could not be created.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(245): Sqlite->connect()
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(3417): ConnectionManager::getDataSource('bake')
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(1083): Model->setDataSource('bake')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(3443): Model->setSource('books')
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Model\Model.php(2698): Model->getDataSource()
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\BooksController.php(18): Controller->paginate()
+#9 [internal function]: BooksController->index()
+#10 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#11 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

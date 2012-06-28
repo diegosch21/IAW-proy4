@@ -68,14 +68,12 @@ class DATABASE_CONFIG {
 		'database' => '../datos/iaw_proy4.sqlite',
 	);
 
-	public $test = array(
-		'datasource' => 'Database/Mysql',
+	public $bake = array(
+		'datasource' => 'Database/Sqlite',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
-		'prefix' => '',
-		//'encoding' => 'utf8',
+		'login' => '',
+		'password' => '',
+		'database' => 'datos/iaw_proy4.sqlite',
 	);
 }

@@ -3,6 +3,7 @@ App::uses('AppModel', 'Model');
 /**
  * Book Model
  *
+ * @property Book $Book
  * @property Tag $Tag
  */
 class Book extends AppModel {
@@ -32,6 +33,21 @@ class Book extends AppModel {
  * @var array
  */
 	public $hasAndBelongsToMany = array(
+		'RBook' => array(
+			'className' => 'Book',
+			'joinTable' => 'books_books',
+			'foreignKey' => 'book_id',
+			'associationForeignKey' => 'r_book_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
 		'Tag' => array(
 			'className' => 'Tag',
 			'joinTable' => 'books_tags',

@@ -47,8 +47,9 @@ class BooksController extends AppController {
 				$this->Session->setFlash(__('The book could not be saved. Please, try again.'));
 			}
 		}
+		$rBooks = $this->Book->RBook->find('list');
 		$tags = $this->Book->Tag->find('list');
-		$this->set(compact('tags'));
+		$this->set(compact('rBooks', 'tags'));
 	}
 
 /**
@@ -72,8 +73,9 @@ class BooksController extends AppController {
 		} else {
 			$this->request->data = $this->Book->read(null, $id);
 		}
+		$rBooks = $this->Book->RBook->find('list');
 		$tags = $this->Book->Tag->find('list');
-		$this->set(compact('tags'));
+		$this->set(compact('rBooks', 'tags'));
 	}
 
 /**

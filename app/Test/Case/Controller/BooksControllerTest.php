@@ -35,7 +35,7 @@ class BooksControllerTestCase extends CakeTestCase {
  *
  * @var array
  */
-	public $fixtures = array('app.book', 'app.tag', 'app.books_tag');
+	public $fixtures = array('app.book', 'app.books_book', 'app.tag', 'app.books_tag');
 
 /**
  * setUp method
