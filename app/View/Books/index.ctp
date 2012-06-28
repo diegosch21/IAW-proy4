@@ -30,40 +30,26 @@
 
 <div class="books index">
 	<h2><?php echo __('Libros');?></h2>
-	<table cellpadding="0" cellspacing="0">
-	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('id_google');?></th>
-			<th><?php echo $this->Paginator->sort('titulo');?></th>
-			<th><?php echo $this->Paginator->sort('autores');?></th>
-			<th><?php echo $this->Paginator->sort('isbn');?></th>
-
-			<th><?php echo $this->Paginator->sort('editorial');?></th>
-			<th><?php echo $this->Paginator->sort('fechapub');?></th>
-			<th><?php echo $this->Paginator->sort('calif_google');?></th>
-			<th><?php echo $this->Paginator->sort('calif_prom');?></th>
-			<th class="actions"><?php echo __('Administrar');?></th>
-	</tr>
-	<?php
-	foreach ($books as $book): ?>
-	<tr>
-		<td><?php echo h($book['Book']['id']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['id_google']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['titulo']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['autores']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['isbn']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['editorial']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['fechapub']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['calif_google']); ?>&nbsp;</td>
-		<td><?php echo h($book['Book']['calif_prom']); ?>&nbsp;</td>
-		<td class="actions">
-			<?php echo $this->Html->link(__('Ver'), array('action' => 'view', $book['Book']['id'])); ?>
-			<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $book['Book']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id'])); ?>
-		</td>
-	</tr>
-<?php endforeach; ?>
-	</table>
+		<div>
+			<div id="resultados">
+				<?php foreach ($books as $book): ?>
+	
+					<div id="resultado">
+						<div class="libro"> 
+						<div class="info">
+							<div class="resultadoTitulo"><?php echo $this->Html->link(__(h($book['Book']['titulo'])), array('action' => 'view', $book['Book']['id'])); ?></div>
+							<div class="resultadoAnio"><?php echo h($book['Book']['autores']); ?></div>
+						</div>		
+							<img class="imagenresult" src="<?php echo h($book['Book']['thumbnail']); ?>" alt="Tapa" />
+							<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $book['Book']['id'])); ?>
+							<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id'])); ?>
+						</div>
+					</div>
+					
+				<?php endforeach; ?>
+				
+			</div>
+		</div>	
 	<p>
 	<?php
 	echo $this->Paginator->counter(array(
