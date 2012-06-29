@@ -2203,3 +2203,138 @@
 #3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TagsController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-29 18:49:22 Error: [MissingActionException] Action BooksController::votar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 18:49:28 Error: [MissingActionException] Action BooksController::votar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 18:50:14 Error: [MissingActionException] Action BooksController::votar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 18:50:18 Error: [MissingActionException] Action BooksController::votar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 18:50:19 Error: [MissingActionException] Action BooksController::votar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 18:50:50 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:51:08 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:51:45 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:57:02 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view()
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:57:20 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view()
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:57:39 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view()
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:57:42 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view()
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:57:49 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view()
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 18:58:20 Error: [MissingActionException] Action BooksController::1() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 18:58:51 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view()
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 19:11:26 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 19:12:47 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 19:13:46 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 19:14:13 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 19:14:31 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 19:15:00 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\votar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -22,6 +22,26 @@ class BooksController extends AppController {
 
 		$this->set('books', $this->paginate());
 	}
+	
+	public function votar($id = null, $calif = null) {
+		$this->Book->id = $id;
+
+		$book = $this->Book->read(null, $id);
+
+		$suma = $book['Book']['calif_prom'];
+		$cant = $book['Book']['calif_cant'];
+		$prod = $suma * $cant;
+		$prod = $prod + $calif;
+		$cant = $cant + 1;
+		$prom = $prod / $cant;
+
+		$this->request->data['Book']['calif_prom'] = $prom;
+		$this->request->data['Book']['calif_cant'] = $cant;
+
+		$this->Book->save($this->request->data);
+
+		$this->redirect(array('action' => 'view', $id));
+	}
 
 /**
  * view method

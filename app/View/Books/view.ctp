@@ -1,4 +1,9 @@
-﻿<div class="main-container">
+﻿<script type="text/javascript">
+$(document).ready(function() {
+	$('#star1').rating('../votar', {maxvalue: 5, curvalue:0, id:<?php echo h($book['Book']['id']); ?>});
+});
+</script>
+<div class="main-container">
   <div class="container1">
   
 
@@ -7,12 +12,15 @@
     <article class="box" id="home_featured21">
 
         <div class="books view">
-<div style="float:right"><img src="<?php echo h($book['Book']['thumbnail']); ?>" alt="<?php echo h($book['Book']['titulo']); ?>"title="<?php echo h($book['Book']['titulo']); ?>"></img></div>
-<h2><?php echo h($book['Book']['titulo']); ?></h2>
-<h5><?php echo h($book['Book']['subtitulo']); ?></h5>
-<a><?php echo h($book['Book']['autores']); ?></a>
-<h2></h2><span><b>Género: </b><?php echo h($book['Book']['categoria']); ?></span>
-<h2></h2><span><b>Resumen: </b><?php echo h($book['Book']['resumen']); ?></span>
+<div style="float:right; width:23%;"><img src="<?php echo h($book['Book']['thumbnail']); ?>" alt="<?php echo h($book['Book']['titulo']); ?>"title="<?php echo h($book['Book']['titulo']); ?>"></img></div>
+<div style="float:left; width:77%;"><h2><?php echo h($book['Book']['titulo']); ?>
+<h5><?php echo h($book['Book']['subtitulo']); ?></h5><a><?php echo h($book['Book']['autores']); ?></a>
+</div>
+<div style="float:right;height:10px!important;" id="star1" class="rating">&nbsp;</div></h2>
+
+<h5>&nbsp;</h5>
+<div><span><b>Género: </b><?php echo h($book['Book']['categoria']); ?></span></div>
+<div style="width:70%;"><h2></h2><span><b>Resumen: </b><?php echo h($book['Book']['resumen']); ?></span></div>
 <p><b>Calificación google: </b><?php echo h($book['Book']['calif_google']); ?></p>
 <p><b>Calificación promedio: </b><?php echo h($book['Book']['calif_prom']); ?></p>
 <p><b>Link GoogleBooks: </b><a href="<?php echo h($book['Book']['link_google']); ?>"><?php echo h($book['Book']['link_google']); ?></a></p>
