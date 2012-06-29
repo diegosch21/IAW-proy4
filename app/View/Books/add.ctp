@@ -29,6 +29,7 @@
 		echo $this->Form->input('thumbnail');
 		echo $this->Form->input('image');
 		echo $this->Form->input('link_google');
+		echo $this->Form->input('RBook');
 		echo $this->Form->input('Tag');
 	?>
 	</fieldset>

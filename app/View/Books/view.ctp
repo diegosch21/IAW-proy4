@@ -44,28 +44,98 @@
 			
 </div>
 <div class="related">
-	<h6>Tags relacionados</h6>
-	<?php if (!empty($book['Tag'])):?>
+	<h3><?php echo __('Related Books');?></h3>
+	<?php if (!empty($book['RBook'])):?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
-		<th><?php echo __('Nombre'); ?></th>
-		<th class="actions"><?php echo __('Acción');?></th>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Id Google'); ?></th>
+		<th><?php echo __('Titulo'); ?></th>
+		<th><?php echo __('Subtitulo'); ?></th>
+		<th><?php echo __('Autores'); ?></th>
+		<th><?php echo __('Categoria'); ?></th>
+		<th><?php echo __('Resumen'); ?></th>
+		<th><?php echo __('Fechapub'); ?></th>
+		<th><?php echo __('Editorial'); ?></th>
+		<th><?php echo __('Isbn'); ?></th>
+		<th><?php echo __('Pags'); ?></th>
+		<th><?php echo __('Idioma'); ?></th>
+		<th><?php echo __('Calif Google'); ?></th>
+		<th><?php echo __('Calif Prom'); ?></th>
+		<th><?php echo __('Calif Cant'); ?></th>
+		<th><?php echo __('Thumbnail'); ?></th>
+		<th><?php echo __('Image'); ?></th>
+		<th><?php echo __('Link Google'); ?></th>
+		<th class="actions"><?php echo __('Actions');?></th>
 	</tr>
 	<?php
 		$i = 0;
-		foreach ($book['Tag'] as $tag): ?>
+		foreach ($book['RBook'] as $rBook): ?>
 		<tr>
-			<td><?php echo $tag['nombre'];?></td>
+			<td><?php echo $rBook['id'];?></td>
+			<td><?php echo $rBook['id_google'];?></td>
+			<td><?php echo $rBook['titulo'];?></td>
+			<td><?php echo $rBook['subtitulo'];?></td>
+			<td><?php echo $rBook['autores'];?></td>
+			<td><?php echo $rBook['categoria'];?></td>
+			<td><?php echo $rBook['resumen'];?></td>
+			<td><?php echo $rBook['fechapub'];?></td>
+			<td><?php echo $rBook['editorial'];?></td>
+			<td><?php echo $rBook['isbn'];?></td>
+			<td><?php echo $rBook['pags'];?></td>
+			<td><?php echo $rBook['idioma'];?></td>
+			<td><?php echo $rBook['calif_google'];?></td>
+			<td><?php echo $rBook['calif_prom'];?></td>
+			<td><?php echo $rBook['calif_cant'];?></td>
+			<td><?php echo $rBook['thumbnail'];?></td>
+			<td><?php echo $rBook['image'];?></td>
+			<td><?php echo $rBook['link_google'];?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('Ver'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
-				<?php echo $this->Html->link(__('Editar'), array('controller' => 'tags', 'action' => 'edit', $tag['id'])); ?>
-				<?php echo $this->Form->postLink(__('Eliminar'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Esta seguro que quiere eliminar el tag # %s?', $tag['id'])); ?>
+				<?php echo $this->Html->link(__('View'), array('controller' => 'books', 'action' => 'view', $rBook['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'books', 'action' => 'edit', $rBook['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'books', 'action' => 'delete', $rBook['id']), null, __('Are you sure you want to delete # %s?', $rBook['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
 	</table>
 <?php endif; ?>
 
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New R Book'), array('controller' => 'books', 'action' => 'add'));?> </li>
+		</ul>
+	</div>
+</div>
+<div class="related">
+	<h3><?php echo __('Related Tags');?></h3>
+	<?php if (!empty($book['Tag'])):?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Nombre'); ?></th>
+		<th class="actions"><?php echo __('Actions');?></th>
+	</tr>
+	<?php
+		$i = 0;
+		foreach ($book['Tag'] as $tag): ?>
+		<tr>
+			<td><?php echo $tag['id'];?></td>
+			<td><?php echo $tag['nombre'];?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'tags', 'action' => 'edit', $tag['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Are you sure you want to delete # %s?', $tag['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Tag'), array('controller' => 'tags', 'action' => 'add'));?> </li>
+		</ul>
+	</div>
 </div>
 
       <div class="clear"></div>

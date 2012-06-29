@@ -9,15 +9,7 @@
 <div class="books index">
 	<h2><?php echo __('Libros');?></h2>
 		<div>
-				<div class="order">
-						Ordenar por:
-						<span style="padding:15px;"><?php echo $this->Paginator->sort('id', 'Id'); ?></span>
-						<span style="padding:15px;"><?php echo $this->Paginator->sort('titulo', 'Título'); ?></span>
-						<span style="padding:15px;"><?php echo $this->Paginator->sort('calif_prom', 'Calificación'); ?></span>
-						<span style="padding:15px;"><?php echo $this->Paginator->sort('calif_google', 'Calificación de google'); ?></span>
-				</div><br /><br />
 			<div id="resultados">
-
 				<?php foreach ($books as $book): ?>
 	
 					<div id="resultado">
@@ -27,9 +19,8 @@
 							<div class="resultadoAnio"><?php echo h($book['Book']['autores']); ?></div>
 						</div>		
 							<img class="imagenresult" src="<?php echo h($book['Book']['thumbnail']); ?>" alt="Tapa" />
-							<span style="margin-left:30%;"><?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $book['Book']['id'])); ?></span>
-							<span style="padding:15px;"><?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id'])); ?>
-							</span>
+							<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $book['Book']['id'])); ?>
+							<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id'])); ?>
 						</div>
 					</div>
 					
@@ -45,15 +36,11 @@
 	?>	</p>
 
 	<div class="paging">
-	<?php 
-		  echo $this->Paginator->prev();  
-		 ?>
-		 <?php 
-		  echo $this->Paginator->numbers(array('separator'=>' - '));
-		?>
-		 <?php 	  
-		  echo $this->Paginator->next(); 
-		?> 
+	<?php
+		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
+		echo $this->Paginator->numbers(array('separator' => ''));
+		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
+	?>
 	</div>
 </div>
 <br /><br />
