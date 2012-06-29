@@ -1,7 +1,13 @@
 ﻿<div class="main-container">
   <div class="container1">
   
+<?php 
 
+
+            echo "<input type='text' id='movieSearch' role='textbox' ></input>";
+			echo "<input value='Autocompletar' type='submit' name='go' id='buttonCompletar'></input>";
+                            
+?>
 
 
     <article class="box" id="home_featured21">

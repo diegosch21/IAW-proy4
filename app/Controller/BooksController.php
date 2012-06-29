@@ -124,4 +124,7 @@ class BooksController extends AppController {
 		$this->Session->setFlash(__('Book was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+	
+	
+
 }

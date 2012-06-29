@@ -2,8 +2,6 @@
   <div class="container1">
   
 
-
-
     <article class="box" id="home_featured21">
 
 <div class="books index">
@@ -60,3 +58,5 @@
  </div>
  
 <br /><br />
+
+
