@@ -2645,3 +2645,24 @@
 #1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-06-30 02:42:52 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('undefined')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-30 03:14:21 Error: [PDOException] SQLSTATE[HY000]: General error: 1 near "paginate": syntax error
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('paginate', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('paginate', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('paginate', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('paginate', Array, Array)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(775): DboSource->query('paginate', Array, Object(Book))
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(64): Model->__call('paginate', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(64): Book->paginate()
+#7 [internal function]: BooksController->view('1')
+#8 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

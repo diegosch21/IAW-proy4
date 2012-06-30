@@ -1,8 +1,4 @@
-﻿<script type="text/javascript">
-$(document).ready(function() {
-	$('#star1').rating('../votar', {maxvalue: 5, curvalue:0, id:<?php echo h($book['Book']['id']); ?>});
-});
-</script>
+﻿
 <div class="main-container">
   <div class="container1">
   
@@ -39,6 +35,92 @@ $(document).ready(function() {
 
 </div><br />
 <br />
+
+
+<div class="books index">
+<h3 id="lbr">Libros relacionados por google books</h3>
+
+		<div>
+			<div id="resultadosRelacionados">
+
+				
+			</div>
+			<script>
+var API_KEY= "AIzaSyAj8Kt71AflXd97wZWbnT2qu0GsZf-VH_8";
+var BASE_URI= "https://www.googleapis.com/books/v1/";
+var url=BASE_URI+'volumes?q=<?php echo h($book['Book']['autores']); ?>&key='+API_KEY;
+
+$.ajax({
+	url: url,   
+	type:"GET",
+	dataType: "jsonp",
+	success: function( data ) {
+				if(data.items[0].volumeInfo.imageLinks==undefined)
+					$("#lbr").html("");
+				else{
+				$("#resultadosRelacionados").html("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[0].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[0].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[0].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
+				$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[1].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[1].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[1].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
+				$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[2].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[2].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[2].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
+				$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[3].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[3].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[3].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
+}
+	}
+});
+</script>
+		</div>
+</div>
+</p>
+
+
+
+
+<div class="related">
+
+	<?php if (!empty($book['RBook'])):?>
+	<h3><?php echo __('Libros relacionados por Busca Cultura');?></h3>
+	<div>
+			<div id="resultados">
+				<?php foreach ($book['RBook'] as $rBook): ?>
+	
+					<div id="resultado">
+						<div class="libro"> 
+						<div class="info">
+							<div class="resultadoTitulo"><?php echo $this->Html->link(__(h($rBook['titulo'])), array('action' => 'view', $rBook['id'])); ?></div>
+							<div class="resultadoAnio"><?php echo h($rBook['autores']); ?></div>
+						</div>		
+							<img class="imagenresult" src="<?php echo h($rBook['thumbnail']); ?>" alt="Tapa" />
+							<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $rBook['id'])); ?>
+							<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $rBook['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $rBook['id'])); ?>
+						</div>
+					</div>
+					
+				<?php endforeach; ?>
+				
+			</div>
+		</div>	
+	<p>
+<?php endif; ?>
+<br /><br />
+<div class="related">
+
+	<?php if (!empty($book['Tag'])):?>
+		<h3><?php echo __('Tags relacionados');?></h3>
+
+	<?php
+		$i = 0;
+		
+		foreach ($book['Tag'] as $tag): ?>
+
+				<div  id="tag"><div  style="padding-top:6px;">&nbsp;&nbsp;<?php echo $this->Html->link(__($tag['nombre']), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>&nbsp;&nbsp;</div></div>
+			
+	<?php endforeach; ?>
+
+<?php endif; ?>
+
+
+</div>
+<p>
+</div>
+
 <div class="actions">
 	<h3>Administrar</h3>
 
@@ -49,102 +131,10 @@ $(document).ready(function() {
 			<?php echo $this->Html->link(__('Nuevo Libro'), array('action' => 'add'));?></p>
 			<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index'));?></p>
 			<?php echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add'));?></p>
-			
+			<?php echo $this->Html->link(__('Nuevo libro relacionado'), array('controller' => 'books', 'action' => 'add'));?>
 </div>
-<div class="related">
-	<h3><?php echo __('Related Books');?></h3>
-	<?php if (!empty($book['RBook'])):?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Id Google'); ?></th>
-		<th><?php echo __('Titulo'); ?></th>
-		<th><?php echo __('Subtitulo'); ?></th>
-		<th><?php echo __('Autores'); ?></th>
-		<th><?php echo __('Categoria'); ?></th>
-		<th><?php echo __('Resumen'); ?></th>
-		<th><?php echo __('Fechapub'); ?></th>
-		<th><?php echo __('Editorial'); ?></th>
-		<th><?php echo __('Isbn'); ?></th>
-		<th><?php echo __('Pags'); ?></th>
-		<th><?php echo __('Idioma'); ?></th>
-		<th><?php echo __('Calif Google'); ?></th>
-		<th><?php echo __('Calif Prom'); ?></th>
-		<th><?php echo __('Calif Cant'); ?></th>
-		<th><?php echo __('Thumbnail'); ?></th>
-		<th><?php echo __('Image'); ?></th>
-		<th><?php echo __('Link Google'); ?></th>
-		<th class="actions"><?php echo __('Actions');?></th>
-	</tr>
-	<?php
-		$i = 0;
-		foreach ($book['RBook'] as $rBook): ?>
-		<tr>
-			<td><?php echo $rBook['id'];?></td>
-			<td><?php echo $rBook['id_google'];?></td>
-			<td><?php echo $rBook['titulo'];?></td>
-			<td><?php echo $rBook['subtitulo'];?></td>
-			<td><?php echo $rBook['autores'];?></td>
-			<td><?php echo $rBook['categoria'];?></td>
-			<td><?php echo $rBook['resumen'];?></td>
-			<td><?php echo $rBook['fechapub'];?></td>
-			<td><?php echo $rBook['editorial'];?></td>
-			<td><?php echo $rBook['isbn'];?></td>
-			<td><?php echo $rBook['pags'];?></td>
-			<td><?php echo $rBook['idioma'];?></td>
-			<td><?php echo $rBook['calif_google'];?></td>
-			<td><?php echo $rBook['calif_prom'];?></td>
-			<td><?php echo $rBook['calif_cant'];?></td>
-			<td><?php echo $rBook['thumbnail'];?></td>
-			<td><?php echo $rBook['image'];?></td>
-			<td><?php echo $rBook['link_google'];?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'books', 'action' => 'view', $rBook['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'books', 'action' => 'edit', $rBook['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'books', 'action' => 'delete', $rBook['id']), null, __('Are you sure you want to delete # %s?', $rBook['id'])); ?>
-			</td>
-		</tr>
-	<?php endforeach; ?>
-	</table>
-<?php endif; ?>
+<br /><br />
 
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New R Book'), array('controller' => 'books', 'action' => 'add'));?> </li>
-		</ul>
-	</div>
-</div>
-<div class="related">
-	<h3><?php echo __('Related Tags');?></h3>
-	<?php if (!empty($book['Tag'])):?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Nombre'); ?></th>
-		<th class="actions"><?php echo __('Actions');?></th>
-	</tr>
-	<?php
-		$i = 0;
-		foreach ($book['Tag'] as $tag): ?>
-		<tr>
-			<td><?php echo $tag['id'];?></td>
-			<td><?php echo $tag['nombre'];?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'tags', 'action' => 'view', $tag['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'tags', 'action' => 'edit', $tag['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'tags', 'action' => 'delete', $tag['id']), null, __('Are you sure you want to delete # %s?', $tag['id'])); ?>
-			</td>
-		</tr>
-	<?php endforeach; ?>
-	</table>
-<?php endif; ?>
-
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Tag'), array('controller' => 'tags', 'action' => 'add'));?> </li>
-		</ul>
-	</div>
-</div>
 
       <div class="clear"></div>
     </article>
@@ -152,3 +142,8 @@ $(document).ready(function() {
  </div>
  
 <br /><br />
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#star1').rating('../votar', {maxvalue: 5, curvalue:0, id:<?php echo h($book['Book']['id']); ?>});
+});
+</script>

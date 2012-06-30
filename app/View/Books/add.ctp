@@ -45,7 +45,7 @@
 <br />
 <div class="actions">
 	<h3><?php echo __('Administrar'); ?></h3>
-		<?php echo $this->Html->link(__('Lisa de Libros'), array('action' => 'index'));?></p>
+		<?php echo $this->Html->link(__('Lista de Libros'), array('action' => 'index'));?></p>
 		<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index')); ?> </p>
 		<?php echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add')); ?> </p>
 
