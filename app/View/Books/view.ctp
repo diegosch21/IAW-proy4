@@ -8,7 +8,10 @@
     <article class="box" id="home_featured21">
 
         <div class="books view">
-<div style="float:right; width:23%;"><img src="<?php echo h($book['Book']['thumbnail']); ?>" alt="<?php echo h($book['Book']['titulo']); ?>"title="<?php echo h($book['Book']['titulo']); ?>"></img></div>
+<div id='megusta' >
+  		<fb:like href="http://www.localhost.com/IAW-proy4/books/view/<?php echo h($book['Book']['id']); ?>" send="true" layout="button_count" width="450" show_faces="false" font="verdana"></fb:like>
+  	</div></p>
+		<div style="float:right; width:23%;"><img src="<?php echo h($book['Book']['thumbnail']); ?>" alt="<?php echo h($book['Book']['titulo']); ?>"title="<?php echo h($book['Book']['titulo']); ?>"></img></div>
 <div style="float:left; width:77%;"><h2><?php echo h($book['Book']['titulo']); ?>
 <h5><?php echo h($book['Book']['subtitulo']); ?></h5><a><?php echo h($book['Book']['autores']); ?></a>
 </div>
@@ -33,9 +36,11 @@
 <p><?php echo h($book['Book']['pags']); ?> páginas</p>
 <p>Idioma: <?php echo h($book['Book']['idioma']); ?></p>
 
-</div><br />
+</div><br /><br />
 <br />
-
+ 	<div id='comments'>
+		<div class="fb-comments" data-href="http://www.localhost.com/IAW-proy4/books/view/<?php echo h($book['Book']['id']); ?>" data-num-posts="2" data-width="500"></div>
+	</div>
 
 <div class="books index">
 <h3 id="lbr">Libros relacionados por google books</h3>
@@ -144,10 +149,20 @@ echo '</div><br /><br />';
     </article>
     
  </div>
- 
+
+	<div id="fb-root"></div> 
 <br /><br />
+
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#star1').rating('../votar', {maxvalue: 5, curvalue:0, id:<?php echo h($book['Book']['id']); ?>});
 });
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>

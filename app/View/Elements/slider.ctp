@@ -55,22 +55,7 @@
     
  </div>
  
-<div class="callout"> 
-    <div class="calloutcontainer"> 
-        <div class="container_12"> 
-            <div class="grid"> 
-                <div class="alignleft">
-                    <h3>Like it?  Download it for free!</h3> 
-                    <p>At <a href="http://www.priteshgupta.com/templates/elegant-press">http://www.priteshgupta.com/templates/elegant-press</a></p> 
-                </div> 
-        <a href="http://www.priteshgupta.com/templates/elegant-press/" class="more" target="_blank">Download</a>
-            </div> 
-            <div class="clear"></div> 
-        </div> 
-        <div class="calloutoverlay"></div> 
-        <div class="calloutoverlaybottom"></div> 
-    </div> 
-</div> 
+
 <br /><br />
 <!--
      <div class="container2">
