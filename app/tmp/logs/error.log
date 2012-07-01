@@ -2666,3 +2666,409 @@
 #10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
 #11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2012-07-01 04:18:22 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Users\login.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-01 04:29:46 Error: [MissingActionException] Action BooksController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 04:30:17 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Users\login.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-01 04:30:37 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Users\login.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-01 04:42:07 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-01 04:45:08 Error: [MissingActionException] Action UsersController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 05:02:06 Error: [MissingActionException] Action UsersController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 05:06:43 Error: [MissingActionException] Action BooksController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 06:13:11 Error: [MissingActionException] Action BooksController::books() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 06:30:53 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\slider1.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/slider1....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/slider1....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/slider1....')
+#3 [internal function]: PagesController->display('images', 'slider1.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:53 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\featured2.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/featured...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/featured...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/featured...')
+#3 [internal function]: PagesController->display('images', 'featured2.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:54 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\browsers.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/browsers...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/browsers...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/browsers...')
+#3 [internal function]: PagesController->display('images', 'browsers.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:54 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\featured1.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/featured...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/featured...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/featured...')
+#3 [internal function]: PagesController->display('images', 'featured1.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:54 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\slider2.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/slider2....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/slider2....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/slider2....')
+#3 [internal function]: PagesController->display('images', 'slider2.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:54 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\slider3.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/slider3....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/slider3....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/slider3....')
+#3 [internal function]: PagesController->display('images', 'slider3.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:55 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\facebook.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/facebook...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/facebook...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/facebook...')
+#3 [internal function]: PagesController->display('images', 'facebook.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:55 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\twitter.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/twitter....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/twitter....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/twitter....')
+#3 [internal function]: PagesController->display('images', 'twitter.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:55 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\flickr.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/flickr.p...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/flickr.p...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/flickr.p...')
+#3 [internal function]: PagesController->display('images', 'flickr.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:55 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\linkedin.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/linkedin...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/linkedin...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/linkedin...')
+#3 [internal function]: PagesController->display('images', 'linkedin.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:55 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\digg.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/digg.png')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/digg.png', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/digg.png')
+#3 [internal function]: PagesController->display('images', 'digg.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:55 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\delicious.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/deliciou...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/deliciou...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/deliciou...')
+#3 [internal function]: PagesController->display('images', 'delicious.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:56 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb.jp...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb.jp...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb.jp...')
+#3 [internal function]: PagesController->display('images', 'thumb.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:56 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\featured3.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/featured...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/featured...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/featured...')
+#3 [internal function]: PagesController->display('images', 'featured3.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:56 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb2.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb2.j...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb2.j...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb2.j...')
+#3 [internal function]: PagesController->display('images', 'thumb2.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:56 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb3.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb3.j...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb3.j...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb3.j...')
+#3 [internal function]: PagesController->display('images', 'thumb3.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:57 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb4.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb4.j...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb4.j...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb4.j...')
+#3 [internal function]: PagesController->display('images', 'thumb4.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:57 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\slider1.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/slider1....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/slider1....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/slider1....')
+#3 [internal function]: PagesController->display('images', 'slider1.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:57 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\slider2.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/slider2....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/slider2....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/slider2....')
+#3 [internal function]: PagesController->display('images', 'slider2.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\browsers.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/browsers...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/browsers...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/browsers...')
+#3 [internal function]: PagesController->display('images', 'browsers.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\featured2.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/featured...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/featured...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/featured...')
+#3 [internal function]: PagesController->display('images', 'featured2.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\featured1.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/featured...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/featured...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/featured...')
+#3 [internal function]: PagesController->display('images', 'featured1.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\slider3.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/slider3....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/slider3....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/slider3....')
+#3 [internal function]: PagesController->display('images', 'slider3.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\featured3.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/featured...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/featured...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/featured...')
+#3 [internal function]: PagesController->display('images', 'featured3.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\facebook.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/facebook...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/facebook...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/facebook...')
+#3 [internal function]: PagesController->display('images', 'facebook.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\twitter.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/twitter....')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/twitter....', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/twitter....')
+#3 [internal function]: PagesController->display('images', 'twitter.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:58 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\flickr.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/flickr.p...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/flickr.p...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/flickr.p...')
+#3 [internal function]: PagesController->display('images', 'flickr.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\delicious.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/deliciou...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/deliciou...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/deliciou...')
+#3 [internal function]: PagesController->display('images', 'delicious.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\linkedin.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/linkedin...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/linkedin...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/linkedin...')
+#3 [internal function]: PagesController->display('images', 'linkedin.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb.jp...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb.jp...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb.jp...')
+#3 [internal function]: PagesController->display('images', 'thumb.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb2.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb2.j...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb2.j...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb2.j...')
+#3 [internal function]: PagesController->display('images', 'thumb2.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb3.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb3.j...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb3.j...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb3.j...')
+#3 [internal function]: PagesController->display('images', 'thumb3.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\digg.png.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/digg.png')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/digg.png', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/digg.png')
+#3 [internal function]: PagesController->display('images', 'digg.png')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:30:59 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\images\thumb4.jpg.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('images/thumb4.j...')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('images/thumb4.j...', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('images/thumb4.j...')
+#3 [internal function]: PagesController->display('images', 'thumb4.jpg')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 06:31:18 Error: [MissingViewException] View file "C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\View\Pages\index.ctp" is missing.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName('index')
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render('index', NULL)
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\Controller\PagesController.php(80): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-01 18:08:14 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

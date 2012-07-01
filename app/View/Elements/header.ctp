@@ -7,7 +7,7 @@
 
 <div class="main-container">
   <div id="sub-headline">
-    <div class="tagline_left"><p id="tagline2">Tel: 123 333 4444 | Mail: <a href="mailto:email@website.com">email@website.com</a></p></div>
+    <div class="tagline_left"><p id="tagline2">Proyecto 4 | <a href="http://cs.uns.edu.ar/~dcm/iaw">Ing. Aplicaciones Web (UNS, 2012)</a></p></div>
     <div class="tagline_right">
 
       <form action="#" method="post">

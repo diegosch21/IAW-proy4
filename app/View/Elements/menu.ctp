@@ -2,8 +2,8 @@
   <div id="nav-container">
    <nav> 
     <ul class="nav">
-      <li class="active"><a href="index.html">Homepage</a></li>
-      <li><a href="#">Géneros</a>
+      <li><?php echo $this->Html->link('Home','/');?></li>
+     <!-- <li><a href="#">Géneros</a>
         <ul>
 		  <li><a href="#">Novelas</a>
 			<ul>
@@ -33,9 +33,10 @@
           </li>
           </ul>
 		</ul>
-      </li>
-      <li><a href="gallery.html">Novedades</a></li>
-      <li class="last"><a href="contact.php">Contacto</a></li>
+      </li> -->
+      <li><?php echo $this->Html->link('Destacados','/books/destacados');?></li>
+      <li><?php echo $this->Html->link('Novedades','/books/novedades');?></li>
+      <li class="last"><?php echo $this->Html->link('Contacto','/contacto');?></li>
     </ul>
    </nav> 
     <div class="clear"></div>

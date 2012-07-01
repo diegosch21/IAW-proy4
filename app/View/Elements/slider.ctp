@@ -27,26 +27,28 @@
 <br />
 
     <article class="box" id="home_featured21">
-      <div class="block"><h2>Who Are We</h2>
+      <div class="block"><h2>¿Quiénes somos?</h2>
         <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur. Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.<br />
 <a href="#" class="read_more">Read More</a> 
 </p>
       </div>
-      <div class="block"><h2>Compatibility</h2>
-      <img src="images/browsers.png" alt="Web Browsers" />
-<br /><br />
+      <div class="block"><h2>Servicio web</h2>
+      	
+      <img src="images/Google-book-store-logo.png" alt="Google Books" width="250px"/>
+      <br /><br />
+      <h4>Google Books</h4>
+      	
         <ul id="list">
-        <li>Dapiensociis temper donec auctortortis cumsan et curabitur.</li>
-        <li>Condis lorem loborttis leo.</li>
-        <li>Portortornec condimenterdum eget consectetuer condis.</li>
-        <li>Puruselit mauris nulla hendimentesque elit semper nam a sapien urna sempus.</li>
+        <li>Libros relacionados</li>
+        <li>Carga de información a partir del nombre</li>
+        <li>API: <a href="https://developers.google.com/books/docs/v1/using">https://developers.google.com/books/docs/v1/using</a></li>
         </ul>
 
       </div>
-      <div class="block last"><h2>What We Do</h2>
-        <p>Temperinte interdum sempus odio urna eget curabitur semper convallis nunc laoreet. Nullain convallis ris elis vest liberos nis diculis feugiat in rutrum. Suspendreristibulumfaucibulum lobortor quis tortortor ris sapien sce enim et volutpat sus. Urnaretiumorci orci fauctor leo justo nulla cras ridiculum eu id vitae. <br />
+      <div class="block last"><h2>Administración</h2>
+        <p>Bla bla</p> <br />
 <br />
-<a href="#" class="read_more">Read More</a></p>
+<?php echo $this->Html->link('Login','/users/login',array('class' => 'read_more'));?></p>
       </div>
       <div class="clear"></div>
     </article>
@@ -70,7 +72,7 @@
     </div> 
 </div> 
 <br /><br />
-
+<!--
      <div class="container2">
      <article id="home_featured2">
       <ul>
@@ -92,10 +94,10 @@
       </ul>
       <br class="clear" />
     </article>
-  </div>
+  </div> -->
 </div>
-<div class="main-container">
- </div>
+
+ <!--
  
 <div class="callout"> 
     <div class="calloutcontainer"> 
@@ -141,4 +143,5 @@
         <div class="calloutoverlay"></div> 
         <div class="calloutoverlaybottom"></div> 
     </div> 
-</div> </div> 
+</div>  </div> 
+-->
