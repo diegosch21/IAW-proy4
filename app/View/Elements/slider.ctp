@@ -3,15 +3,15 @@
   <div id="mySlides">
     <div id="slide1">    
         <img src="images/slider1.jpg" alt="Slide 1 jFlow Plus" />
-        <span><b class="slideheading">El Prisionero del Cielo</b><br />Barcelona, 1957. Daniel Sempere y su amigo Fermín,</p> los héroes de La Sombra del Viento, regresan de nuevo a la</p> aventura para afrontar el mayor desafío de sus vidas.<a href="#" title="Coolness" class="readmore">Read More!</a></span>
+        <span><b class="slideheading">El Prisionero del Cielo</b><br />Barcelona, 1957. Daniel Sempere y su amigo Fermín,</p> los héroes de La Sombra del Viento, regresan de nuevo a la</p> aventura para afrontar el mayor desafío de sus vidas.<a href="books/view/1" title="Coolness" class="readmore">Read More!</a></span>
 	</div>    	
     <div id="slide2">
         <img src="images/slider2.jpg" alt="La leyenda del ladrón" />
-        <span><b class="slideheading">La leyenda del ladrón</b><br />Prepárate a transportarte a la Sevilla del xvi,</p> a un fascinante mundo de mendigos y prostitutas, nobles</p> y comerciantes, espadachines y ladrones.<a href="#" title="Coolness" class="readmore">Read More!</a></span>
+        <span><b class="slideheading">La leyenda del ladrón</b><br />Prepárate a transportarte a la Sevilla del xvi,</p> a un fascinante mundo de mendigos y prostitutas, nobles</p> y comerciantes, espadachines y ladrones.<a href="books/view/5" title="Coolness" class="readmore">Read More!</a></span>
     </div>   
 	<div id="slide3">
         <img src="images/slider3.jpg" alt="Slide 3 jFlow Plus" />
-        <span><b class="slideheading">Simpatía por el diablo</b><br />La casualidad convierte a Isabel, la secretaria del banquero</p> más importante del país, en la heroína que pone en marcha la red</p> de resistencia que se enfrentará a los poderosos de este mundo<a href="#" title="Coolness" class="readmore">Read More!</a></span>
+        <span><b class="slideheading">Simpatía por el diablo</b><br />La casualidad convierte a Isabel, la secretaria del banquero</p> más importante del país, en la heroína que pone en marcha la red</p> de resistencia que se enfrentará a los poderosos de este mundo<a href="books/view/18" title="Coolness" class="readmore">Read More!</a></span>
     </div>
 </div>
 
@@ -28,8 +28,8 @@
 
     <article class="box" id="home_featured21">
       <div class="block"><h2>¿Quiénes somos?</h2>
-        <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur. Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.<br />
-<a href="#" class="read_more">Read More</a> 
+        <p>Buscá cultura es una libroteca en donde encontrarás referencias a libros que revolucionaron a la comunidad literaria y también a todas las novedades de los que están por venir. El objetivo del website es fomentar el hábito de la lectura, y que los usuarios puedan usarlo para elegir su proximo libro.<br />
+<a href="contacto" class="read_more">Contactanos!</a> 
 </p>
       </div>
       <div class="block"><h2>Servicio web</h2>
