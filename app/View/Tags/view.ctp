@@ -21,6 +21,7 @@
 
 </div>
 <br /><br />
+<?php if($authUser) { ?>
 <div class="actions">
 	<h3><?php echo __('Administrar'); ?></h3>
 		<?php echo $this->Html->link(__('Editar Tag'), array('action' => 'edit', $tag['Tag']['id'])); ?> </p>
@@ -30,6 +31,7 @@
 		<?php echo $this->Html->link(__('Lista de Libros'), array('controller' => 'books', 'action' => 'index')); ?> </p>
 		<?php echo $this->Html->link(__('Nuevo Libro'), array('controller' => 'books', 'action' => 'add')); ?> </p>
 </div><br />
+<?php } ?>
 <div class="related">
 	<h6><?php echo __('Libros Relacionados');?></h6>
 	<?php if (!empty($tag['Book'])):?>

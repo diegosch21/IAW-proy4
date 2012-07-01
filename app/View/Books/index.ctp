@@ -17,8 +17,10 @@
 							<div class="resultadoAnio"><?php echo h($book['Book']['autores']); ?></div>
 						</div>		
 							<img class="imagenresult" src="<?php echo h($book['Book']['thumbnail']); ?>" alt="Tapa" />
+							<?php if($authUser) { ?>
 							<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $book['Book']['id'])); ?>
 							<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id'])); ?>
+							<?php } ?>
 						</div>
 					</div>
 					
@@ -42,12 +44,14 @@
 	</div>
 </div>
 <br /><br />
+<?php if($authUser) { ?>
 <div class="actions">
 	<h3><?php echo __('Administrar'); ?></h3>
 		<?php echo $this->Html->link(__('Nuevo libro'), array('action' => 'add')); ?></p>
 		<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index')); ?> </p>
 		<?php echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add')); ?> </p>
 </div>
+<?php } ?>
 
 
 </div>
