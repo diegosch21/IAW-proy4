@@ -3072,3 +3072,142 @@
 2012-07-01 18:08:14 Error: [MissingControllerException] Controller class ContactoController could not be found.
 #0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-01 22:27:02 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:27:05 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:27:06 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 22:27:08 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:27:41 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 22:27:48 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:27:49 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:28:51 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:28:57 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:29:00 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:29:39 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 22:29:43 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:29:44 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:29:48 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:35:09 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 22:58:29 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:08:29 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 23:08:30 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 23:10:13 Error: [MissingActionException] Action BooksController::novedades() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 23:10:16 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 23:10:20 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:10:26 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:10:45 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:11:05 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:11:07 Error: [MissingControllerException] Controller class ContactoController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:16:56 Error: [MissingActionException] Action BooksController::destacados() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-01 23:31:38 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:31:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:31:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:31:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:33:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:33:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-01 23:33:56 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

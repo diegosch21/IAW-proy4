@@ -34,8 +34,8 @@
           </ul>
 		</ul>
       </li> -->
-      <li><?php echo $this->Html->link('Destacados','/books/destacados');?></li>
-      <li><?php echo $this->Html->link('Novedades','/books/novedades');?></li>
+      <li><?php echo $this->Html->link('Lista de Libros','/books');?></li>
+      <li><?php echo $this->Html->link('Novedades','/novedades');?></li>
       <li class="last"><?php echo $this->Html->link('Contacto','/contacto');?></li>
     </ul>
    </nav> 
