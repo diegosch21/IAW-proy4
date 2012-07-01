@@ -88,8 +88,10 @@ $.ajax({
 							<div class="resultadoAnio"><?php echo h($rBook['autores']); ?></div>
 						</div>		
 							<img class="imagenresult" src="<?php echo h($rBook['thumbnail']); ?>" alt="Tapa" />
-							<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $rBook['id'])); ?>
-							<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $rBook['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $rBook['id'])); ?>
+							<?php
+								if ($authUser) {
+ 									echo $this->Html->link(__('Editar'), array('action' => 'edit', $rBook['id'])); 
+									echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $rBook['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $rBook['id'])); } ?>
 						</div>
 					</div>
 					
@@ -120,20 +122,22 @@ $.ajax({
 </div>
 <p>
 </div>
+<?php
+if ($authUser) {
+echo '<div class="actions"><h3>Administrar</h3>';
 
-<div class="actions">
-	<h3>Administrar</h3>
 
+			  echo $this->Html->link(__('Editar Libro'), array('action' => 'edit', $book['Book']['id'])) .'</p>';
+			  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id'])).'</p>';
+			 echo $this->Html->link(__('Lista de Libros'), array('action' => 'index')).'</p>';
+			 echo $this->Html->link(__('Nuevo Libro'), array('action' => 'add')).'</p>';
+			 echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index')).'</p>';
+			 echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add')).'</p>';
+			 echo $this->Html->link(__('Nuevo libro relacionado'), array('controller' => 'books', 'action' => 'add'));
+echo '</div><br /><br />';
+}
 
-			<?php  echo $this->Html->link(__('Editar Libro'), array('action' => 'edit', $book['Book']['id'])); ?></p>
-			<?php  echo $this->Form->postLink(__('Eliminar Libro'), array('action' => 'delete', $book['Book']['id']), null, __('Esta seguro que quiere eliminar el libro # %s?', $book['Book']['id']));?></p>
-			<?php echo $this->Html->link(__('Lista de Libros'), array('action' => 'index'));?></p>
-			<?php echo $this->Html->link(__('Nuevo Libro'), array('action' => 'add'));?></p>
-			<?php echo $this->Html->link(__('Lista de Tags'), array('controller' => 'tags', 'action' => 'index'));?></p>
-			<?php echo $this->Html->link(__('Nuevo Tag'), array('controller' => 'tags', 'action' => 'add'));?></p>
-			<?php echo $this->Html->link(__('Nuevo libro relacionado'), array('controller' => 'books', 'action' => 'add'));?>
-</div>
-<br /><br />
+?>
 
 
       <div class="clear"></div>

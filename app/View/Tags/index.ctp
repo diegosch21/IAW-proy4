@@ -43,12 +43,14 @@
 	</div>
 </div>
 <br /><br />
+<?php if($authUser) { ?>
 <div class="actions">
 	<h3><?php echo __('Administrar'); ?></h3>
 		<?php echo $this->Html->link(__('Nuevo Tag'), array('action' => 'add')); ?></p>
 		<?php echo $this->Html->link(__('Lista de Libros'), array('controller' => 'books', 'action' => 'index')); ?> </p>
 		<?php echo $this->Html->link(__('Nuevo Libro'), array('controller' => 'books', 'action' => 'add')); ?> </p>
 </div>
+<?php } ?>
 
 
 </div>

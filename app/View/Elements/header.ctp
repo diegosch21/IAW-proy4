@@ -18,9 +18,23 @@
         </fieldset>
       </form>
     </div>
+    <div class="tagline_right">
+	
+      <?php
+      	if ($authUser)
+			{
+				echo '<p id="tagline3" style="padding:10px 10px 10px 10px;">'	;
+			    	echo "Bienvenido Admin | ";
+			    echo $this->Html->link('Logout','/users/logout');
+				echo '  </p>';
+			}
+      ?>
+    </div>
     <br class="clear" />
   </div>
 </div>
 
-<?php echo $this->element('menu', array('cache' => true)); ?>
+<?php echo $this->element('menu', array('cache' => true)); 
+
+?>
 
