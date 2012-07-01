@@ -34,6 +34,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 		echo $this->Html->script('elegant-press', array('inline' => false));
 		echo $this->Html->script('rating', array('inline' => false));
+		echo $this->Html->script('busqueda', array('inline' => false));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');

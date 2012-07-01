@@ -2338,3 +2338,331 @@
 #3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-29 20:30:25 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:30:43 Error: [MissingActionException] Action BooksController::La() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 20:30:51 Error: [MissingActionException] Action BooksController::La() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 20:30:58 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index('La')
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:31:07 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index('La')
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:31:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index('La')
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:31:11 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:31:43 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:31:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:32:00 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:32:06 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:32:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:32:10 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:33:31 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index()
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:33:40 Error: [MissingActionException] Action BooksController::La() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 20:33:49 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index('La')
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 20:33:52 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Book.title
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('SELECT "Book"."...', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT "Book"."...', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT "Book"."...', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT "Book"."...', false)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(2698): DboSource->read(Object(Book), Array)
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate('Book', Array, Array)
+#7 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(23): Controller->paginate('Book', Array)
+#8 [internal function]: BooksController->index('La')
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-06-29 21:25:43 Error: [MissingActionException] Action BooksController::La() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 21:26:13 Error: [MissingActionException] Action BooksController::La() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 21:30:03 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\search.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 21:39:06 Error: [MissingActionException] Action BooksController::La() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 22:19:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-29 22:39:51 Error: [MissingActionException] Action BooksController::completar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 22:41:43 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\completar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 22:42:01 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\completar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 22:45:06 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\completar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 22:45:10 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\completar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 22:45:11 Error: [MissingViewException] View file "C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\View\Books\completar.ctp" is missing.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 22:51:24 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('dfdf')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-29 23:41:45 Error: [MissingActionException] Action BooksController::completar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-29 23:52:00 Error: [MissingActionException] Action BooksController::completar() could not be found.
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-30 02:42:52 Error: [NotFoundException] Invalid book
+#0 [internal function]: BooksController->view('undefined')
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-30 03:14:21 Error: [PDOException] SQLSTATE[HY000]: General error: 1 near "paginate": syntax error
+#0 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(435): PDO->prepare('paginate', Array)
+#1 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('paginate', Array)
+#2 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('paginate', Array, Array)
+#3 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('paginate', Array, Array)
+#4 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Model\Model.php(775): DboSource->query('paginate', Array, Object(Book))
+#5 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(64): Model->__call('paginate', Array)
+#6 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\Controller\BooksController.php(64): Book->paginate()
+#7 [internal function]: BooksController->view('1')
+#8 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Users\Enzo\Desktop\IAW_4\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

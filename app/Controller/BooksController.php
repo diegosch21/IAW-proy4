@@ -54,7 +54,8 @@ class BooksController extends AppController {
 		if (!$this->Book->exists()) {
 			throw new NotFoundException(__('Invalid book'));
 		}
-		$this->set('book', $this->Book->read(null, $id));
+		$this->set('book', $this->Book->read(null, $id));		
+
 	}
 
 /**
@@ -124,4 +125,7 @@ class BooksController extends AppController {
 		$this->Session->setFlash(__('Book was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+	
+	
+
 }

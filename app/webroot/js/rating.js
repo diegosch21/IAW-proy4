@@ -168,3 +168,9 @@ jQuery.fn.rating = function(url, options) {
 	return(this);	
 
 }
+
+if (window.location.hostname == "localhost") {
+	var urlBase = "/"+window.location.href.split( '/' )[3]+"/";
+} else {
+	var urlBase = "http://"+window.location.host +"/"+ window.location.href.split( '/' )[3]+"/";
+}
