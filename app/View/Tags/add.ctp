@@ -11,7 +11,7 @@
 	<fieldset>
 		<legend><?php echo __('Add Tag'); ?></legend>
 	<?php
-		echo $this->Form->input('nombre');
+		echo $this->Form->input('nombre',array('type' => 'text'));
 		echo $this->Form->input('Book');
 	?>
 	</fieldset>

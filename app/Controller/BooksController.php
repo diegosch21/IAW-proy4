@@ -23,6 +23,28 @@ class BooksController extends AppController {
 		$this->set('books', $this->paginate());
 	}
 	
+	public function search() {
+		if ($this->request->is('post')) {
+			$query = explode(" ",$this->request->data['Book']['query']);
+		} else {
+			$query = array("");
+		}
+		$results = array();
+		foreach($query as $q) {
+			$temp = array("OR"=>array('Book.titulo LIKE' => '%'.$q.'%','Book.subtitulo LIKE' => '%'.$q.'%','Book.autores LIKE' => '%'.$q.'%','Book.categoria LIKE' => '%'.$q.'%'));
+			array_push($results,$temp);
+		}
+		$this->paginate = array(
+			'limit' => 8,
+			'page' => 1,
+		);
+		
+		$this->set('books', $this->paginate('Book',array( "OR" => $results)));
+		
+		
+	}
+	
+	
 	public function votar($id = null, $calif = null) {
 		$this->Book->id = $id;
 
@@ -127,5 +149,7 @@ class BooksController extends AppController {
 	}
 	
 	
+
+
 
 }

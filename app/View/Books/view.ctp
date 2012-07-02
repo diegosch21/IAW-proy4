@@ -1,4 +1,16 @@
-﻿
+﻿<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("books", "0");
+
+      function initialize() {
+        var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+        viewer.load('<?php echo h($book['Book']['id_google']); ?>');
+      }
+
+      google.setOnLoadCallback(initialize);
+    </script>
+
+
 <div class="main-container">
   <div class="container1">
   
@@ -16,6 +28,8 @@
 <h5><?php echo h($book['Book']['subtitulo']); ?></h5><a><?php echo h($book['Book']['autores']); ?></a>
 </div>
 <div style="float:right;height:10px!important;" id="star1" class="rating">&nbsp;</div></h2>
+
+
 
 <h5>&nbsp;</h5>
 <div><span><b>Género: </b><?php echo h($book['Book']['categoria']); ?></span></div>
@@ -36,14 +50,20 @@
 <p><?php echo h($book['Book']['pags']); ?> páginas</p>
 <p>Idioma: <?php echo h($book['Book']['idioma']); ?></p>
 
-</div><br /><br />
+
+
+<br /><br />
+</div>
+
 <br />
  	<div id='comments'>
-		<div class="fb-comments" data-href="http://www.localhost.com/IAW-proy4/books/view/<?php echo h($book['Book']['id']); ?>" data-num-posts="2" data-width="500"></div>
+		<div align='center' class="fb-comments" data-href="http://www.localhost.com/IAW-proy4/books/view/<?php echo h($book['Book']['id']); ?>" data-num-posts="2" data-width="600"></div>
 	</div>
 
 <div class="books index">
-<h3 id="lbr">Libros relacionados por google books</h3>
+	<h4>Previsualización de GoogleBooks</h4>
+<div align='center' id="viewerCanvas" style="width: 500px; height: 300px; padding-bottom: 30px"></div>
+<h4 id="lbr">Libros relacionados por google books</h4>
 
 		<div>
 			<div id="resultadosRelacionados">
@@ -63,10 +83,11 @@ $.ajax({
 				if(data.items[0].volumeInfo.imageLinks==undefined)
 					$("#lbr").html("");
 				else{
-				$("#resultadosRelacionados").html("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[0].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[0].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[0].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
-				$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[1].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[1].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[1].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
-				$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[2].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[2].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[2].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
-				$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[3].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[3].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[3].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></div>");
+
+					$("#resultadosRelacionados").html("<div id='resultadoRelacionado'><a href='"+data.items[0].volumeInfo.previewLink+"' target='_blank'> <div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[0].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[0].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[0].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></a></div>");
+					$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><a href='"+data.items[1].volumeInfo.previewLink+"' target='_blank'> <div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[1].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[1].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[1].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></a></div>");
+					$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><a href='"+data.items[2].volumeInfo.previewLink+"' target='_blank'> <div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[2].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[2].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[2].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></a></div>");
+					$("#resultadosRelacionados").append("<div id='resultadoRelacionado'><a href='"+data.items[3].volumeInfo.previewLink+"' target='_blank'> <div class='libro'><div class='info'><div class='resultadoTitulo'>"+data.items[3].volumeInfo.title+"</div><div class='resultadoAnio'>"+data.items[3].volumeInfo.authors[0]+"</div><img class='imagenresult' src="+data.items[3].volumeInfo.imageLinks.thumbnail+" alt='Tapa' /></div></a></div>");
 }
 	}
 });
@@ -81,7 +102,7 @@ $.ajax({
 <div class="related">
 
 	<?php if (!empty($book['RBook'])):?>
-	<h3><?php echo __('Libros relacionados por Busca Cultura');?></h3>
+	<h4><?php echo __('Libros relacionados por Busca Cultura');?></h4>
 	<div>
 			<div id="resultados">
 				<?php foreach ($book['RBook'] as $rBook): ?>
@@ -110,7 +131,7 @@ $.ajax({
 <div class="related">
 
 	<?php if (!empty($book['Tag'])):?>
-		<h3><?php echo __('Tags relacionados');?></h3>
+		<h4><?php echo __('Tags relacionados');?></h4>
 
 	<?php
 		$i = 0;
@@ -127,6 +148,8 @@ $.ajax({
 </div>
 <p>
 </div>
+
+
 <?php
 if ($authUser) {
 echo '<div class="actions"><h3>Administrar</h3>';

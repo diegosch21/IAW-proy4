@@ -1,4 +1,16 @@
-﻿<div class="main-container">
+﻿<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("books", "0");
+
+      function initialize() {
+        var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+        viewer.load('ISBN:0738531367');
+      }
+
+      google.setOnLoadCallback(initialize);
+    </script>
+
+<div class="main-container">
   <div class="container1">
 
 
@@ -45,4 +57,4 @@ Vicente López 2036 - Recoleta Mall. Entrada libre y gratuita<br />
 </div> 
 <br /><br />
 
-</div>  </div> 
+</div>  

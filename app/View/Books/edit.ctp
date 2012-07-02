@@ -1,7 +1,10 @@
 ﻿<div class="main-container">
   <div class="container1">
   
-
+  
+<input type='text' id='book_title' role='textbox' ></input>
+<input value='Autocompletar' type='submit' name='go' id='buttonCompletar'></input>
+                            
 
 
     <article class="box" id="home_featured21">
@@ -14,25 +17,25 @@
 		<legend><?php echo __('Edit Book'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
-		echo $this->Form->input('id_google');
-		echo $this->Form->input('titulo');
-		echo $this->Form->input('subtitulo');
-		echo $this->Form->input('autores');
-		echo $this->Form->input('categoria');
-		echo $this->Form->input('resumen');
-		echo $this->Form->input('fechapub');
-		echo $this->Form->input('editorial');
-		echo $this->Form->input('isbn');
-		echo $this->Form->input('pags');
-		echo $this->Form->input('idioma');
-		echo $this->Form->input('calif_google');
-		echo $this->Form->input('calif_prom');
-		echo $this->Form->input('calif_cant');
-		echo $this->Form->input('thumbnail');
-		echo $this->Form->input('image');
-		echo $this->Form->input('link_google');
-		echo $this->Form->input('RBook');
-		echo $this->Form->input('Tag');
+		echo $this->Form->input('id_google',array('type' => 'text','label'=>'ID Google Books: '));
+		echo $this->Form->input('titulo',array('type' => 'text', 'label'=>'Titulo: '));
+		echo $this->Form->input('subtitulo',array('type' => 'text', 'label'=>'Subtitulo: '));
+		echo $this->Form->input('autores',array('type' => 'text', 'label'=>'Autor(es): '));
+		echo $this->Form->input('categoria',array('type' => 'text', 'label'=>'Categoria: '));
+		echo $this->Form->input('resumen',array('type' => 'textarea', 'label'=>'Resumen: '));
+		echo $this->Form->input('fechapub',array('type' => 'text', 'label'=>'Fecha de publicación: '));
+		echo $this->Form->input('editorial',array('type' => 'text', 'label'=>'Editorial: '));
+		echo $this->Form->input('isbn',array('type' => 'text', 'label'=>'ISBN: '));
+		echo $this->Form->input('pags',array('label'=>'Cant. de páginas: '));
+		echo $this->Form->input('idioma',array('type' => 'text', 'label'=>'Idioma: '));
+		echo $this->Form->input('calif_google',array('type' => 'text', 'label'=>'Calficación Google Books: '));
+		echo $this->Form->input('calif_prom',array('type' => 'text', 'label'=>'Rating Busca Cultura: '));
+		echo $this->Form->input('calif_cant',array('type' => 'text', 'label'=>'Cantidad de ratings: '));
+		echo $this->Form->input('thumbnail',array('type' => 'text', 'label'=>'URL thumbnail: '));
+		echo $this->Form->input('image',array('type' => 'text', 'label'=>'URL imagen: '));
+		echo $this->Form->input('link_google',array('type' => 'text', 'label'=>'URL GoogleBooks: '));
+		echo $this->Form->input('RBook',array('label'=>'Libros relacionados: '));
+		echo $this->Form->input('Tag',array('label'=>'Tags: '));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>

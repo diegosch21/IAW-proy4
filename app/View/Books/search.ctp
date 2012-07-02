@@ -1,20 +1,13 @@
 ﻿<div class="main-container">
   <div class="container1">
   
+  	
 
     <article class="box" id="home_featured21">
 
 <div class="books index">
 	<h2><?php echo __('Libros');?></h2>
 		<div>
-			
-	<div class="order" align="center">
-		Ordenar por:
-		<?php echo $this->Paginator->sort('id', '# Id '); ?>
-		<?php echo $this->Paginator->sort('titulo', ' # Titulo '); ?>
-		<?php echo $this->Paginator->sort('calif_prom', ' # Rating'); ?>
-	</div>
-	<br/>
 			<div id="resultados">
 				<?php foreach ($books as $book): ?>
 	
@@ -51,6 +44,7 @@
 		echo $this->Paginator->next(__(' next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
+<br />
 
 </div>
 <br /><br />

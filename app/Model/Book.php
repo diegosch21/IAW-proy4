@@ -7,6 +7,9 @@ App::uses('AppModel', 'Model');
  * @property Tag $Tag
  */
 class Book extends AppModel {
+	
+	 var $displayField = 'titulo';
+	
 /**
  * Validation rules
  *

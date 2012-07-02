@@ -6,19 +6,20 @@
 </div>
 
 <div class="main-container">
-  <div id="sub-headline">
-    <div class="tagline_left"><p id="tagline2">Proyecto 4 | <a href="http://cs.uns.edu.ar/~dcm/iaw">Ing. Aplicaciones Web (UNS, 2012)</a></p></div>
-    <div class="tagline_right">
 
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Site Search</legend>
-          <input type="text" value="Busca un libro&hellip;"  id="query" onfocus="if (this.value == 'Busca un libro&hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Busca un libro&hellip;';}" />
-          <input type="submit" name="go" id="go" value="Search" />
-        </fieldset>
-      </form>
+  <div id="sub-headline">
+    <div class="tagline_left"><p id="tagline2">Proyecto 4 <br/> <a href="http://cs.uns.edu.ar/~dcm/iaw">Ing. Aplicaciones Web (UNS, 2012)</a></p></div>
+    <div class="tagline_right" >
+		<fieldset>
+	<?php echo $this->Form->create('Book', array('action' => 'search'));
+	
+		echo $this->Form->input('query', array('class' => 'search', 'type' => 'text', 'value' => 'Busca un libro...', 'label' => false, 'onfocus' =>'if (this.value == "Busca un libro...") {this.value = "";}', 'onblur'=>'if (this.value == "") {this.value = "Busca un libro...";}'));
+		echo $this->Form->end(__('Buscar'), array('class' => 'submit'));?>
+</fieldset>
+
+
     </div>
-    <div class="tagline_right">
+    <div class="tagline_center" align="center">
 	
       <?php
       	if ($authUser)

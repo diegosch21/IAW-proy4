@@ -36,6 +36,7 @@
       </li> -->
       <li><?php echo $this->Html->link('Lista de Libros','/books');?></li>
       <li><?php echo $this->Html->link('Novedades','/novedades');?></li>
+      <li><?php echo $this->Html->link('Readme','/readme');?></li>
       <li class="last"><?php echo $this->Html->link('Contacto','/contacto');?></li>
     </ul>
    </nav> 
