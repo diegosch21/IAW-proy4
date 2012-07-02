@@ -1,6 +1,6 @@
 ﻿<div class="main-container">
   <header>
-    <h1><a href="index.html">Busca cultura</a></h1>
+    <h1><a href="#">Busca cultura</a></h1>
     <p id="tagline"><strong>Donde encontrarás tu próximo libro</strong></p>
   </header>
 </div>

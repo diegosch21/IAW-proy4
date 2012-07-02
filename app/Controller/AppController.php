@@ -44,6 +44,7 @@ class AppController extends Controller {
     public function beforeFilter() {
         $this->Auth->allow('index', 'view', 'display', 'search', 'votar');
 		$this->set('authUser', $this->Auth->user());
+		// $this->set('title_for_layout','Busca Cultura. Proyecto 4 IAW / Pecorari & Schwindt');
     }
 	
 	public function isAuthorized($user) {

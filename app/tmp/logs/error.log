@@ -3415,3 +3415,13 @@
 #11 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
 #12 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2012-07-02 10:00:13 Error: [MissingActionException] Action BooksController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-02 10:00:35 Error: [MissingActionException] Action BooksController::index.html() could not be found.
+#0 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Diego\Dropbox\YO\IAW\workspace\IAW-proy4\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
